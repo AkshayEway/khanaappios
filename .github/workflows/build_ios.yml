@@ -53,17 +53,21 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19.x
+      - name: Install Ionic
+        run: npm install -g @ionic/cli
+
       - name: Install app dependencies
         run: npm install
 
       - name: Build project app
-        run: npm run build
+        run: ionic build
 
-      - name: Capacitor update
-        run: npx cap update
-
-      - name: Capacitor copy
-        run: npx cap copy
+      - name: cordova prepare
+        run: ionic cordova prepare ios
 
       - name: Build project
         run: xcodebuild -workspace './platforms/ios/App/App.xcworkspace' -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
