@@ -50,8 +50,8 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
-        # with:
-        #   node-version: 14.x
+        with:
+          node-version: 14.x
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -61,7 +61,7 @@ jobs:
         run: npm install -g @ionic/cli
 
       - name: Install app dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps 
 
       - name: Build project app
         run: ionic build
