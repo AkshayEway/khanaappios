@@ -8,7 +8,7 @@ import { FetchService } from '../fetch.service';
 import { StorageService } from '../storage.service';
 import { Platform } from '@ionic/angular';
 import { Location } from "@angular/common";
-import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/diagnostic/ngx";
 
 declare var google: any;
 declare var $: any;

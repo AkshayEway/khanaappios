@@ -14,7 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecaptchaModule } from "ng-recaptcha";
 import { HttpClientModule } from '@angular/common/http';
 import { DatePicker } from '@ionic-native/date-picker/ngx';
-import { Diagnostic } from '@ionic-native/Diagnostic/ngx';
+import { Diagnostic } from '@ionic-native/diagnostic/ngx';
 import { DatePipe } from '@angular/common';
 import {FCM} from 'cordova-plugin-fcm-with-dependecy-updated/ionic/ngx';
 

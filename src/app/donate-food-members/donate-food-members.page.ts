@@ -5,7 +5,7 @@ import { StorageService } from '../storage.service';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 import { ErrorMsgService } from '../error-msg.service';
-import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/diagnostic/ngx";
 
 declare var $:any;
 

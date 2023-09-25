@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { AlertController , ModalController } from '@ionic/angular';
 import { VolunteerFoodRequestContentPage } from '../modal/volunteer-food-request-content/volunteer-food-request-content.page';
 import { ErrorMsgService } from '../error-msg.service';
-import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/diagnostic/ngx";
 
 declare var $:any;
 @Component({

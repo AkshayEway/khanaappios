@@ -11,7 +11,7 @@ import { Location } from "@angular/common";
 import { AlertController } from '@ionic/angular';
 import { Geolocation,GeolocationOptions ,Geoposition ,PositionError } from '@ionic-native/geolocation/ngx';
 import { NativeGeocoder, NativeGeocoderResult, NativeGeocoderOptions } from '@ionic-native/native-geocoder/ngx';
-import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/diagnostic/ngx";
 declare var $:any;
 declare var google: any;
 

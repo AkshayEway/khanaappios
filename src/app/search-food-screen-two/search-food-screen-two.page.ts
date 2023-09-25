@@ -9,7 +9,7 @@ import { AlertController , ModalController } from '@ionic/angular';
 import { CommonSearchScreenPage } from '../common-search-screen/common-search-screen.page';
 import { OnTheWayPage } from '../modal/on-the-way/on-the-way.page';
 import { OntheWayMsgPage } from '../modal/onthe-way-msg/onthe-way-msg.page';
-import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/diagnostic/ngx";
 
 declare var google: any;
 @Component({
