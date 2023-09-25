@@ -61,7 +61,7 @@ jobs:
         run: npm install -g @ionic/cli
 
       - name: Install cordova
-        run: npm i cordova
+        run: npm i cordova --legacy-peer-deps
 
       - name: Install app dependencies
         run: npm install --legacy-peer-deps 
