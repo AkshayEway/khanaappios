@@ -13,7 +13,7 @@ import { AlertController } from '@ionic/angular';
 import { TermsConditionsPage } from '../modal/terms-conditions/terms-conditions.page';
 import { DatePicker } from '@ionic-native/date-picker/ngx';
 import { ErrorMsgModalPage } from '../modal/error-msg-modal/error-msg-modal.page';
-import { Diagnostic } from "@ionic-native/diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
 
 declare var $:any;
 

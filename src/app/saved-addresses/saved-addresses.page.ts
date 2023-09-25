@@ -4,7 +4,7 @@ import { FetchService } from '../fetch.service';
 import { StorageService } from '../storage.service';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { Platform } from '@ionic/angular';
-import { Diagnostic } from "@ionic-native/diagnostic/ngx";
+import { Diagnostic } from "@ionic-native/Diagnostic/ngx";
 
 declare var $: any;
 
