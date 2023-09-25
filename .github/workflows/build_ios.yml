@@ -77,11 +77,3 @@ jobs:
           name: app-ios
           path: output/
           retention-days: 60
-
-      # For use on self-hosted runners, see 
-      # https://docs.github.com/en/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development
-      #- name: Clean up keychain and provisioning profile
-      #  if: ${{ always() }}
-      #  run: |
-      #    security delete-keychain $RUNNER_TEMP/app-signing.keychain-db
-      #    rm ~/Library/MobileDevice/Provi
